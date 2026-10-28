@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rulebox-local"
+version = "0.1.0"
+description = "Local-first rule library for Codex, with optional LoRA rule drafting"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Yousef (Joseph) Sanjari"}]
+dependencies = []
+
+[project.optional-dependencies]
+lora = ["torch>=2.2", "transformers>=4.51,<6", "peft>=0.17,<0.22"]
+
+[project.scripts]
+rulebox = "rulebox.server:main"
+rulebox-train = "rulebox.lora:main"
+
+[tool.setuptools.packages.find]
+include = ["rulebox*"]
+
+[tool.setuptools.package-data]
+rulebox = ["static/*"]

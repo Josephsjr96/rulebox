@@ -1,0 +1,2 @@
+{"source":"Explain the cause of a bug before showing the fix, but skip that explanation when I ask for code only.","instruction":"Explain the bug's cause before the fix unless the user requests code only."}
+{"source":"If you don't know whether a claim is true, tell me instead of guessing.","instruction":"State uncertainty when a claim cannot be established; do not guess."}

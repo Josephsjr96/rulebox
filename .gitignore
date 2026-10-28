@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.env
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+.rulebox-*
+models/
+adapters/
+private-data/
+rulebox-library.json

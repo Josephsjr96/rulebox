@@ -1,0 +1,6 @@
+{"source":"Please keep answers short unless I ask for details.","instruction":"Keep answers concise unless the user requests more detail."}
+{"source":"When changing Python code, run the existing relevant tests.","instruction":"After changing Python code, run the existing tests relevant to the change."}
+{"source":"Use English when I speak English and Persian when I speak Persian.","instruction":"Reply in English to English messages and in Persian to Persian messages."}
+{"source":"Don't add new dependencies without asking me first.","instruction":"Ask the user before adding a new dependency."}
+{"source":"I want examples with SQLite, unless I specifically ask for Postgres.","instruction":"Use SQLite in examples unless the user explicitly requests PostgreSQL."}
+{"source":"Only respond when I say the exact word Lantern.","instruction":"Remain silent unless the user says the exact word Lantern."}
